@@ -1,0 +1,53 @@
+.tak-modal{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.tak-btn-sabtenam{
+    margin-right: 10px;
+}
+/*sign in*/
+.title-signin{
+    width: 100%;
+    padding: 10px 0;
+    font-family: iranyekanbold;
+    color: #000;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signin-description{
+    width: 100%;
+    padding-bottom: 24px;
+    font-family: bbadr;
+    color: #7d7c83;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.user-name-input{
+    width: 100%;
+    text-align: right;
+    padding-bottom: 30px;
+    font-family: bbadr;
+}
+.tak-btn-span{
+    width: 100%;
+    text-align: right;
+    padding-bottom: 24px;
+    font-family: iranyekanbold;
+}
+.tak-hr-signin{
+    width: calc(100% + 48px);
+    border-top: 1px solid #E3E3E3;
+    margin: 0 -24px;
+    padding-bottom: 24px;
+}
+.forgetpass-span{
+    padding-bottom: 5px;
+    font-family: bbadr;
+}

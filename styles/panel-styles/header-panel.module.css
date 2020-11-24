@@ -1,0 +1,111 @@
+.header-panel-wide {
+    width: 100%;
+    box-shadow: 0 -4px 7px 7px rgba(0, 0, 0, 0.3);
+    background-color: #2850A7;
+    position: fixed;
+    z-index: 1500;
+}
+
+.tak-header-fake {
+    width: 100%;
+    height: 55px;
+}
+
+.header-panel {
+    width: 100%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tak-panel-header-right {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.tak-panel-header-left {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.tak-header-panel-search-div {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-left: 12px;
+}
+
+.tak-panel-header-search {
+    width: 250px;
+    height: 35px;
+    padding-right: 10px;
+    padding-left: 40px;
+    overflow: hidden;
+    background-color: #0072be;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    color: #fff;
+    font-family: bbadr;
+}
+
+.tak-panel-header-search::placeholder {
+    color: #BDCAE4;
+    font-family: light;
+    font-size: 15px;
+}
+
+.tak-header-panel-search-icon {
+    position: absolute;
+    left: 20px;
+    font-size: 20px;
+    color: #FFF;
+}
+
+.logo-header-panel {
+    height: 80%;
+    padding-left: 16px;
+}
+
+.ul-header-panel {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.li-header-panel {
+    height: 100%;
+}
+
+
+.tak-panel-header-a-link {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-family: light;
+    padding: 0 12px;
+    padding-top: 3px;
+    cursor: pointer;
+    color: white;
+    opacity: 0.6;
+    transition: 0.2s;
+    border-bottom: 3px solid transparent;
+}
+
+.tak-panel-header-a-link:hover {
+    opacity: 1;
+    color: white;
+    transition: 0.2s;
+}
+
+.tak-panel-header-a-link:focus {
+    opacity: 1;
+    transition: 0.2s;
+    border-bottom: 3px solid #f77f00;
+}

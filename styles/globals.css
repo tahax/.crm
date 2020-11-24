@@ -1,16 +1,113 @@
+@font-face {
+    font-family: 'iranyekanbold';
+    font-style: normal;
+    font-weight: bold;
+    src: local('iranyekanbold'), url("/fonts/iranYekan/492984b8.woff") format('woff');
+}
+
+@font-face {
+    font-family: 'bbadr';
+    font-style: normal;
+    font-weight: bold;
+    src: local('iranyekanbold'), url("/fonts/bbadr/BBadr.woff") format('woff');
+}
+
+@font-face {
+    font-family: 'light';
+    font-style: normal;
+    font-weight: bold;
+    src: local('iranyekanbold'), url("/fonts/iranYekan/a80f71ff.woff2") format('woff2');
+}
+
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    direction: rtl !important;
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
+
+/*bootstrap*/
+.ol, ul, dl {
+    margin: 0 !important;
+    padding: 0 !important;;
+}
+
+/*bootstrap*/
+
+/*antd*/
+.ant-menu-rtl.ant-menu-inline, .ant-menu-rtl.ant-menu-vertical {
+    border-left: none !important;
+    padding-left: 1px !important;
+    padding-top: 5px;
+}
+
+.ant-page-header {
+    padding: 16px 17px !important;
+}
+
+.ant-collapse {
+    background-color: #ffffff !important;
+    border: 0 !important;
+    box-shadow: 0 0 15px #eee;
+    margin-bottom: 10px !important;
+}
+
+.ant-collapse-content {
+    border-top: 5px solid #f6f9fb !important;
+}
+
+td:last-child {
+    text-align: left !important;
+}
+
+.ant-form input{
+    border: none!important;
+    background-color: #FAFAFA!important;
+}
+
+.ant-input-number {
+    border: none !important;
+    background-color: #FAFAFA!important;
+}
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    border: none!important;
+    background-color: #FAFAFA!important;
+}
+.ant-message {
+    z-index: 2000!important;
+}
+/*antd*/
+
+/*bootstrap*/
+@media (min-width: 768px){
+    .container {
+        max-width: 100%!important;
+    }
+}
+
+@media (min-width: 992px){
+    .container {
+        max-width: 100%!important;
+    }
+}
+
+
+@media (min-width: 1300px) {
+    .container {
+        max-width: 1250px !important;
+    }
+}
+
+/*//bootstrap*/

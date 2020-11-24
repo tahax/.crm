@@ -1,0 +1,14 @@
+.tak-footer-copy-panel {
+    width: 100%;
+    background-color: #2850A7;
+}
+
+.tak-inner-footer-panel {
+    padding: 5px 0;
+    color: #FFF;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    direction: ltr;
+}

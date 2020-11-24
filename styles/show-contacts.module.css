@@ -1,0 +1,9 @@
+.tak-contacts-show-div{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #eee;
+    overflow: hidden;
+    font-family: bbadr;
+    color: #000;
+    margin-bottom: 100px;
+}
